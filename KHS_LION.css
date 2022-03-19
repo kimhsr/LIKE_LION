@@ -1,0 +1,200 @@
+
+.align_center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    padding: 20px;
+    border: 2px solid #C7C7C7;
+    border-radius: 5px;
+}
+
+.login h4 { 
+    padding:0 0 15px; 
+    border-bottom: 2px solid #dadada; 
+    border-bottom-width: 1000px solid #dadada; 
+    text-align: center; 
+    line-height: 1; 
+    font-size: 15px; 
+    color: #111;
+}
+
+.header {
+    position: relative;
+}
+
+.header:before{
+    content: url(./KHS_LION_img/close.png);
+    position: absolute;
+    right: 17px;
+    top: 0px;
+}
+
+.login h3 {
+    text-align: left;
+}
+.login > ul { 
+    padding: 0 0 5px;
+}
+.login > ul li { text-align: left;}
+.login > ul li input[type="checkbox"] { 
+    display: none;
+}
+.login > ul li input[type="checkbox"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+    background: url(./KHS_LION_img/icon_check_empty.png) no-repeat center;
+}
+.login > ul li input[type="checkbox"]:checked + label:before {
+    background: url(./KHS_LION_img/icon_check.png) no-repeat center;
+    vertical-align: middle;
+}
+.login button { 
+    width: 100%; 
+    height: 56px; 
+    border-radius: 5px; 
+    background: #2F80ED; 
+    font-size: 18px; 
+    color: #fff;
+}
+.login div { 
+    padding: 0 0 0px;
+}
+.login div ul { 
+    display: flex; 
+    justify-content: center;
+}
+.login div ul li { 
+    position: relative; 
+    padding: 0 15px;
+}
+.login div ul li ~ li:before { 
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    top: 5px;
+    height: 14px; 
+    width: 1px; 
+    background: #949494; 
+}
+.login div ul li a { 
+    font-size: 14px; 
+    color: #949494; 
+    text-decoration: none;
+    
+}
+.login h5 {
+    font-size: 14px; 
+    color: #949494; 
+    font-weight: normal;
+    
+}
+
+.login-type {
+    text-align: center;
+}
+
+span.or-txt {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #8B8B8B;
+    position: relative;
+    font-size: 14px;
+}
+
+span.or-txt:before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 0;
+    background-color: #C7C7C7;
+    width: 43%;
+    height: 1px;
+}
+
+span.or-txt:after {
+    content: '';
+    position: absolute;
+    top: 11px;
+    right: 0;
+    background-color: #C7C7C7;
+    width: 43%;
+    height: 1px;
+}
+
+a.btn {
+    display: block;
+    text-decoration: none;
+    color: #8B8B8B;
+    border: 2px solid lightgray;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+a.btn:hover {
+    opacity: 1;
+}
+a.btn0{
+    color: #fff;
+    background-color: #2F80ED;
+}
+
+a.btn1{
+    border-color: #ADADAD;
+}
+
+a.btn2{
+    border-color: #6AB9E5;
+}
+
+a.btn3{
+    border-color: #36CC49;
+}
+
+a.btn4{
+    border-color: #F4D26A;
+}
+
+a.btn1:before {
+    content: url(./KHS_LION_img/icon_google.png);
+    position: absolute;
+    left: 13px;
+    top: 4px;
+}
+
+a.btn2:before {
+    content: url(./KHS_LION_img/icon_facebook.png);
+    position: absolute;
+    left: 17px;
+    top: 4px;
+}
+
+a.btn3:before {
+    content: url(./KHS_LION_img/icon_naver.png);
+    position: absolute;
+    left: 13px;
+    top: 4px;
+}
+
+a.btn4:before {
+    content: url(./KHS_LION_img/icon_kakao.png);
+    position: absolute;
+    left: 13px;
+    top: 4px;
+}
